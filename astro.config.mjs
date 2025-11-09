@@ -10,15 +10,48 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Start',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Introduction', slug: 'guides/example' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Characters',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Characters', slug: 'characters/example' },
+					],
+				},
+				{
+					label: 'Mechanics',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Mechanics', slug: 'reference/example' },
+					],
+				},						
+				{
+					label: 'Multiplayer',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Multiplayer', slug: 'multiplayer/example' },
+					],
+				},
+									
+				{
+					label: 'Toolset',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Toolset', slug: 'tools/example' },
+					],
+				},
+									
+				{
+					label: 'Glossary',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Glossary', slug: 'glossary/example' },
+					],
 				},
 			],
 		}),

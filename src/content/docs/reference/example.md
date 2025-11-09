@@ -1,11 +1,12 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Mecánicas Centrales y Reglas D&D 3.0/3.5
+description: Explicación de las reglas básicas de Neverwinter Nights, incluyendo tiradas de dado, atributos y el sistema de CA.
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what you're documenting.
+**Neverwinter Nights** opera completamente bajo un sistema de reglas basado en la **3.ª Edición de Dungeons & Dragons (D&D 3.0/3.5)**.  
+Esto significa que la mayoría de las acciones —desde atacar hasta abrir cerraduras— se resuelven mediante **tiradas de dado automatizadas**.
 
-## Further reading
+## 🎲 El Sistema de Tirada de Dado (d20)
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+Todas las pruebas de habilidad, ataque o salvación se realizan con una tirada de un dado de veinte caras (`d20`), a la cual se le suma el modificador de un atributo y un bonificador de habilidad:
+

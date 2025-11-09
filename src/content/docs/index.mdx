@@ -1,40 +1,42 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Neverwinter Nights Wiki
+description: Guía y documentación de Neverwinter Nights creada con Astro Starlight.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Bienvenido al compendio de Neverwinter Nights
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Guía de inicio
+      link: /guides/intro/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Ver personajes
+      link: /characters/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Explora el contenido
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Reglas básicas" icon="book">
+    Aprende las mecánicas principales del juego y cómo dominar el sistema de Dungeons & Dragons 3.0.
+  </Card>
+
+  <Card title="Clases y razas" icon="users">
+    Descubre las distintas razas y clases jugables, sus habilidades y ventajas.
+  </Card>
+
+  <Card title="Hechizos y habilidades" icon="sparkles">
+    Consulta listas de conjuros, habilidades especiales y descripciones detalladas.
+  </Card>
+
+  <Card title="Módulos y campañas" icon="map">
+    Información sobre campañas oficiales, expansiones y módulos personalizados.
+  </Card>
+
+  <Card title="Recursos" icon="download">
+    Accede a herramientas, utilidades y enlaces útiles para jugadores y desarrolladores.
+  </Card>
 </CardGrid>
